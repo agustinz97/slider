@@ -105,7 +105,7 @@ function changeSlide(){
 function resetTimer(){
 
 	clearInterval(timer);
-	let timer = setInterval(autoPlay, 4000);
+	timer = setInterval(autoPlay, 4000);
 }
 
 function autoPlay(){
